@@ -98,13 +98,13 @@ function updateHistoryFriends() {
     if (window.location.href.match(/\/(node|way|relation)\//g)) {
         updateOSMElements();
     } else if (window.location.href.match(/\/user\/.*\/history/g)) {
-        window.setTimeout(updateUserChangesets, 2000);
+        window.setTimeout(updateUserChangesets, 3000);
         updateUserChangesets();
     } else if (window.location.href.match(/\/history\/friends/g)) {
-        window.setTimeout(updateHistoryFriends, 2000);
+        window.setTimeout(updateHistoryFriends, 5000);
         updateHistoryFriends();
     } else if (window.location.href.match(/\/history/g)) {
-        window.setTimeout(updateHistory, 2000);
+        window.setTimeout(updateHistory, 3000);
         updateHistory();
     }
 })();
