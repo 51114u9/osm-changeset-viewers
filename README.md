@@ -1,8 +1,14 @@
 
 # OSM Changeset Viewers
 
-Adds links to Changeset Viewers ([Achavi](https://wiki.openstreetmap.org/wiki/Achavi) and
-[OSMCha](https://wiki.openstreetmap.org/wiki/OSMCha)) at [osm.org](htttps://openstreetmap.org)
+Add changeset viewers links ([Achavi](https://wiki.openstreetmap.org/wiki/Achavi)
+and [OSMCha](https://wiki.openstreetmap.org/wiki/OSMCha)) to the right side of the
+changeset number on osm elements page (/node/*, /way/*, /relation/*), history page
+(/history), changesets of friends page (history/friends), and edits of an user
+(/user/*/history) at [osm.org](htttps://openstreetmap.org)
+
+Currently, in pages with "load more" button or when you navigate links of osm
+elements this script dont work :(. I'll investigate how to intercept AJAX requests
 
 ## Screenshots
 
