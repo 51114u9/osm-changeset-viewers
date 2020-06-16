@@ -1,5 +1,5 @@
 
-# OSM Changeser Viewers
+# OSM Changeset Viewers
 
 Adds links to Changeset Viewers ([Achavi](https://wiki.openstreetmap.org/wiki/Achavi) and
 [OSMCha](https://wiki.openstreetmap.org/wiki/OSMCha)) at [osm.org](htttps://openstreetmap.org)
