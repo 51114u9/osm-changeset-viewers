@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OSM Changeset Viewers
 // @namespace    https://github.com/51114u9/osm-changeset-viewers
-// @version      0.1
+// @version      0.2
 // @description  Adds changeset viewers in OSM.org
 // @author       51114u9
 // @homepage     https://github.com/51114u9/osm-changeset-viewers
