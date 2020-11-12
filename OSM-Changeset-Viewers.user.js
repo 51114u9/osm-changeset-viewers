@@ -21,7 +21,9 @@ var changeset_viewers = {
     achavi: "https://nrenner.github.io/achavi/?changeset=<number>",
     achaviText: "[A]",
     osmcha: "https://osmcha.org/changesets/<number>/",
-    osmchaText: "[O]"
+    osmchaText: "[O]",
+    changesetmap: "https://osmlab.github.io/changeset-map/#<number>",
+    changesetmapText: "[CM]"
 };
 
 function createLink(url, urlText, changesetNumber) {
@@ -36,10 +38,13 @@ function createLink(url, urlText, changesetNumber) {
 function createChangesetViewers(element, changesetNumber) {
     let achavi = createLink(changeset_viewers.achavi, changeset_viewers.achaviText, changesetNumber);
     let osmcha = createLink(changeset_viewers.osmcha, changeset_viewers.osmchaText, changesetNumber);
+    let changesetmap = createLink(changeset_viewers.changesetmap, changeset_viewers.changesetmapText, changesetNumber);
 
     element.appendChild(achavi);
     element.appendChild(document.createTextNode(" "));
     element.appendChild(osmcha);
+    element.appendChild(document.createTextNode(" "));
+    element.appendChild(changesetmap);
 
     return element;
 }
